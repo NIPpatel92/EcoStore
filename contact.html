@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EcoStore - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+    <h1>EcoStore 🌿</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="calculator.html">Calculator</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+  <h2>Contact Us</h2>
+  <form class="contact-form" onsubmit="event.preventDefault(); submitForm();">
+    <input type="text" placeholder="Your Name" required class="form-element">
+    <input type="email" placeholder="Your Email" required class="form-element">
+    <textarea placeholder="Your Message" rows="5" required class="form-element"></textarea>
+    <button type="submit" class="form-element">Send Message</button>
+  </form>
+</div>
+
+</body>
+</html>
